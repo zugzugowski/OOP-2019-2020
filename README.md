@@ -27,9 +27,9 @@ Resources
 ## Learning outcomes
 - Fork the repo, configure the upstream remotes
 - Write your first Java code
-- Think about doing Games Fleadh!
+- Think about doing a project for Games Fleadh!
 
-Firstly fork *this* repository, so that you get your own copy of the repo to work on this semester. Now create a new empty folder on your computer somewhere or on your network drive and then right click on the folder and choose git bash here. Alternatively you can start the bash and cd to the new folder. To clone the repository for your fork:
+Firstly fork *this* repository by clicking the fork button above, so that you get your own copy of the repo to work on this semester. Now create a new empty folder on your computer somewhere or on your network drive and then right click on the folder and choose git bash here. Alternatively you can start the bash and cd to the new folder. To clone the repository for your fork:
 
 ```bash
 git clone https://github.com/YOURGITUSERNAME/OOP-2019-2020
@@ -104,7 +104,9 @@ Check out the [Games Fleadh official website](http://gamesfleadh.ie)
 
 [Download Unity Game Engine](https://unity.com/)
 
-[Check out the Unity tutorials](https://learn.unity.com/) and start making some games! ()
+[Check out the Unity tutorials](https://learn.unity.com/) and start making some games!
+
+Check out [this playlist](https://www.youtube.com/watch?v=jw5zXkg84A0&list=PL1n0B6z4e_E79Sl5I9Q7MlJk8tKjhHv_9) and [this playlist](https://www.youtube.com/watch?v=cW8s5i9dmqA&list=PL1n0B6z4e_E6jErrS0ScSCaVrN7KV729x) to get some inspiration if you plan to do the music visualiser assignment
 
 ## Lecture
 - [Introduction slides](https://drive.google.com/file/d/1wdMcXJzaRBCSm4Ouj4_ZjWj9Mh292fQB/view?usp=sharing)
