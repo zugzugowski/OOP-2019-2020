@@ -23,8 +23,92 @@ Resources
 - End of Year exam - 50%
 
 # Week 1 - Introduction
+## Lab
+## Learning outcomes
+- Fork the repo, configure the upstream remotes
+- Write your first Java code
+- Think about doing Games Fleadh!
 
-- [Dogs & Cats example](java/src/ie/tudublin)
+Firstly fork *this* repository, so that you get your own copy of the repo to work on this semester. Now create a new empty folder on your computer somewhere or on your network drive and then right click on the folder and choose git bash here. Alternatively you can start the bash and cd to the new folder. To clone the repository for your fork:
+
+```bash
+git clone https://github.com/YOURGITUSERNAME/OOP-2019-2020
+```
+
+Replace YOURGITUSERNAME with your username. Now cd into the repo and check the origin and upstream remotes are set up correctly
+
+```bash
+cd OOP-2019-2020
+git remote -v
+```
+You should see something like this:
+
+```bash
+origin  https://github.com/YOURGITUSERNAME/OOP-2019-2020 (fetch)
+origin  https://github.com/YOURGITUSERNAME/OOP-2019-2020 (push)
+upstream  https://github.com/skooter500/OOP-2019-2020 (fetch)
+upstream  https://github.com/skooter500/OOP-2019-2020 (push)
+```
+
+If you don't see the upstream remote, you can set it up by typing
+
+```bash
+git remote add upstream https://github.com/skooter500/OOP-2019-2020
+```
+You can read more about forking a git repository and setting up the upstream remote in [this article](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
+
+Once the upstream is setup, you will be able to push code to your own repo and also keep it up to date with the changes I make.
+
+To compile and run the Java code in the src folder, you should type:
+
+```bash
+cd java
+javac src/ie/tudublin/*.java -d bin
+java -cp bin ie.tudublin.Main
+```
+
+You should see
+
+```
+Hello world!
+Misty
+Woof!
+Meow!
+```
+
+On the terminal. If you do, then congratulations! You have successfully compiled and run your first Java program. Now create a branch to store your changes today. Best not to modify the master branch so you can keep it up to date with my changes:
+
+```bash
+git checkout -b lab1
+```
+
+Use an editor (like Visual Studio code or notepad++) to open up the files in the folder src/ie/tudublin and study them to see if you can figure out whats happening. Modify the code as follows:
+
+- Write a method (functions are called methods in Java) on the Cat class called kill. It should subtract 1 from numLives if numLives is > 0 and print the message "Ouch!". If numLives is 0, you should just print the message "Dead"
+- In the Main class in a loop, call kill until the Cat is dead.
+- Compile and run your program until you have no bugs and you get the desired output.
+
+Commit and push your changes:
+
+```bash
+git add .
+git commit -m "killing the cat"
+git push --set-upstream origin lab1
+```
+
+The "--set-upstream origin lab1" option is only required the first time you commit onto a new branch. After that you can just type "git push"
+
+Check out [this article about last years Games Fleadh projects](https://www.dit.ie/computing/newsevents/eventscompetitions/eventsarticles/headline172312en.html). Have a look at the youtube videos and see what you think!
+
+Check out the [Games Fleadh official website](http://gamesfleadh.ie)
+
+[Download Unity Game Engine](https://unity.com/)
+
+[Check out the Unity tutorials](https://learn.unity.com/) and start making some games! ()
+
+## Lecture
+- [Introduction slides](https://drive.google.com/file/d/1wdMcXJzaRBCSm4Ouj4_ZjWj9Mh292fQB/view?usp=sharing)
+- [hello world](java/src/ie/tudublin)
 
 Some assignments from previous years:
 
