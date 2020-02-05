@@ -30,6 +30,8 @@ Resources
 ![](https://github.com/skooter500/GP-2016-2017/blob/master/images/p1.2.png?raw=true)
 
 
+# Lab 2
+
 ## Learning Outcomes
 - Practice drawing stuff and working out co-ordinates
 - Practice using variables and if statements in Java
