@@ -8,8 +8,10 @@ public class Main
 		String[] a = {"MAIN"};
         processing.core.PApplet.runSketch( a, new HelloProcessing());
 	}
+    
     public static void main(String[] arg)
     {
+        /*
         System.out.println("Hello world!");
 
         Animal misty = new Dog(); // Polymorphism
@@ -18,6 +20,7 @@ public class Main
         misty.speak();  
         Cat topcat = new Cat();
         topcat.speak();
+        */
 
         Main main = new Main();
 		main.helloProcessing();
