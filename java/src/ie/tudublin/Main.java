@@ -8,6 +8,12 @@ public class Main
 		String[] a = {"MAIN"};
         processing.core.PApplet.runSketch( a, new HelloProcessing());
     }
+
+    public void loops()
+    {
+		String[] a = {"MAIN"};
+        processing.core.PApplet.runSketch( a, new Loops());
+    }
     
     public void bugZap()
 	{
