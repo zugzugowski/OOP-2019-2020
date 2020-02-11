@@ -22,13 +22,6 @@ Resources
 - Week 12 Assignment Submission - 30%
 - End of Year exam - 50%
 
-# Week 2 - Using Variables in Java, HelloProcessing example
-
-- Check out the HelloProcessing class in the repo
-- We drew the all seeing eye using the Processing drawing methods
-
-![](https://github.com/skooter500/GP-2016-2017/blob/master/images/p1.2.png?raw=true)
-
 # Week 3 - Using Loops in Java
 - [For loop](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/for.html)
 - [While loop](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html)
@@ -93,6 +86,14 @@ These next two require nested loops...
 ![](https://github.com/skooter500/GP-2018-2019/raw/master/images/p23.png)
 
 for loops are probably a better choice for most of these, but you should try writing one or two of them using while loops for practice.
+
+# Week 2 - Using Variables in Java, HelloProcessing example
+
+- Check out the HelloProcessing class in the repo
+- We drew the all seeing eye using the Processing drawing methods
+
+![](https://github.com/skooter500/GP-2016-2017/blob/master/images/p1.2.png?raw=true)
+
 
 # Lab 2
 
@@ -177,7 +178,6 @@ if ((frameCount % 60) == 0)
 - You can print text to the screen using the [text](https://processing.org/reference/text_.html) function.
 
 Ok you should now have the basics working. See if you can figure out how to check to see if the player hits the bug, add scoring, splash screen, game over screen and sound.
-
 
 # Week 1 - Introduction
 ## Lab
