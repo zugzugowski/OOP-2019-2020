@@ -27,8 +27,6 @@ Resources
 - [While loop](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html)
 - [Foreach loop](https://docs.oracle.com/javase/8/docs/technotes/guides/language/foreach.html)
 
-Check out [Loops.java](https://github.com/skooter500/OOP-2018-2019/blob/master/java/src/ie/dit/Loops.java) in the repo for some examples
-
 ## Lab
 
 ### Learning Outcomes
