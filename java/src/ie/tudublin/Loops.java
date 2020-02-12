@@ -23,6 +23,6 @@ public class Loops extends PApplet
 
 	public void draw()
 	{	
-		background(0);		
+		background(0);	
 	}
 }
