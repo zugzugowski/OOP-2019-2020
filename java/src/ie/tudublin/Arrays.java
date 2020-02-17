@@ -1,6 +1,6 @@
 package ie.tudublin;
 
-// Hello from Bryan
+// Hello from Jacob
 
 import processing.core.PApplet;
 
@@ -13,7 +13,7 @@ public class Arrays extends PApplet
 
 	public void setup() 
 	{
-		
+
 	}
 
 	
