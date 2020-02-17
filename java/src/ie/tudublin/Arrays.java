@@ -16,6 +16,11 @@ public class Arrays extends PApplet
 
 	}
 
+	void test()
+	{
+		
+	}
+
 	
 
 	float offset = 0;
