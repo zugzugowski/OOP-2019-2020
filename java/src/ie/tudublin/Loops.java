@@ -90,9 +90,9 @@ public class Loops extends PApplet
 	{	
 		background(0);		
 		colorMode(HSB);
-		//loops1();
+		loops1();
 
-		loops2();
+		//loops2();
 
 		//loops3();
 	}
