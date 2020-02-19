@@ -76,11 +76,32 @@ public class ArraysExample extends PApplet
 		}
 	}
 
+	int cushion = 50;
+	int z = 1;
+
 	void drawGraph()
 	{
 		stroke(255);
-		line(40, 30, 40, 450);
-		line(40, 450, 470, 450);
+		for(int i = 0; i <= 150; i += 10)
+		{
+			for(int j = 0; j <= 11; j++)
+			{
+				if(z == 12)
+				{
+					z = 11;
+				}
+				line(cushion, 30, cushion, height - cushion);
+				line(cushion, height - cushion, width - cushion, height - cushion);
+				line(cushion, (height - cushion) - (i * 2.8f), cushion - 10, (height - cushion) - (i * 2.8f));
+				stroke(235, 100, 100);
+				line(cushion, rainFall[j] * 5, cushion + (j * 35), rainFall[z] * 5);
+				text(i, 15, 450 - (i * 2.7f));
+				text(months[j], 50 + (j * 35), 475);
+				z++;
+			}
+			
+		}
+		
 	}
 
 	public void keyPressed()
