@@ -76,6 +76,13 @@ public class ArraysExample extends PApplet
 		}
 	}
 
+	void drawGraph()
+	{
+		stroke(255);
+		line(40, 30, 40, 450);
+		line(40, 450, 470, 450);
+	}
+
 	public void keyPressed()
 	{
 		if (key == ' ')
@@ -89,6 +96,7 @@ public class ArraysExample extends PApplet
 		background(0);		
 		colorMode(HSB);	
 
-		drawBarChart();
+		//drawBarChart();
+		drawGraph();
 	}
 }

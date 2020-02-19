@@ -4,18 +4,15 @@ public class Main
 {
 
     public void helloArrays()
-<<<<<<< HEAD
-=======
 	{
 		String[] a = {"MAIN"};
         processing.core.PApplet.runSketch( a, new ArraysExample());
     }
 
     public void helloProcessing()
->>>>>>> 3abc8db5bc26035d1738ad470a5d37a4dc04ebf7
 	{
 		String[] a = {"MAIN"};
-        processing.core.PApplet.runSketch( a, new Arrays());
+        processing.core.PApplet.runSketch( a, new ArraysExample());
     }
 
     public void loops()
@@ -78,10 +75,6 @@ public class Main
     public static void main(String[] arg)
     {
         Main main = new Main();
-<<<<<<< HEAD
-		main.helloArrays();      
-=======
 		main.helloArrays();        
->>>>>>> 3abc8db5bc26035d1738ad470a5d37a4dc04ebf7
     }
 }
