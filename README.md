@@ -82,8 +82,6 @@ or this code for a file:
 as = minim.loadSample("scale.wav", 1024);
 ```
 
-You will get the best results by using bigger numbers for this. 1024 will probably work, but 2048 is better.
-
 You can get the frame size using:
 
 ```Java
