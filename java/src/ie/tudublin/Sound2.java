@@ -17,7 +17,7 @@ public class Sound2 extends PApplet
 	public void setup() 
 	{
 		minim = new Minim(this);
-		as = minim.loadSample("scale.wav");
+		as = minim.loadSample("scale.wav", 1024);
 		colorMode(HSB);
 		circy = height / 2;
 		lerpedcircley = circy;
