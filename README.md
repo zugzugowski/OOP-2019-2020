@@ -94,6 +94,7 @@ You can get the actual sample by using:
 in.left.get(SAMPLE_INDEX);
 ```
 - Write a method in your program ```public int countZeroCrossings()``` that uses the above two methods to count and return the zero crossings. The algorithm is pretty simple, so I'll let you figure it out for yourself.
+- When you count the zeros, convert this number to a frequency
 - Print out the value using the text command in Processing
 
 When we take a frequency and get the note name for that frequency, this is called "spelling" the frequency. Here is some Java code for the frequencies of the notes in several octaves of the the D Major scale. For musicians in the class, you will know that D Major has 2 sharps. F# and C#, so the frequencies for the notes F and C are those for F# and C#
