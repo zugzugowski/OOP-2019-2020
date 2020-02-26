@@ -127,7 +127,7 @@ Now you can use the PitchSpeller class with your zero crossings algorithm to spe
 
 Here is a video of what your finished program might look like:
 
-[![YouTube](http://img.youtube.com/vi/KOuete3f21c/0.jpg)](http://www.youtube.com/watch?v=KOuete3f21c)
+[![YouTube](http://img.youtube.com/vi/bfLVzCD2UC0/0.jpg)](https://youtu.be/bfLVzCD2UC0)
 
 
 # Week 4 - Arrays
