@@ -48,8 +48,11 @@ public class Sound2 extends PApplet
 
 	public void keyPressed()
 	{
-		as.stop();
-		as.trigger();
+		if (key == ' ')
+		{
+			as.stop();
+			as.trigger();
+		}
 	}
 	
 	public void draw()
