@@ -4,6 +4,15 @@ public class Main
 {
 
     public void helloArrays()
+<<<<<<< HEAD
+=======
+	{
+		String[] a = {"MAIN"};
+        processing.core.PApplet.runSketch( a, new ArraysExample());
+    }
+
+    public void helloProcessing()
+>>>>>>> 2d52dd221d936f97e0702fcfa6eeb2cfcf6b7520
 	{
 		String[] a = {"MAIN"};
         processing.core.PApplet.runSketch( a, new Arrays());
@@ -21,10 +30,28 @@ public class Main
         processing.core.PApplet.runSketch( a, new BugZap());
     }
     
+    public void sound1()
+	{
+		String[] a = {"MAIN"};
+        processing.core.PApplet.runSketch( a, new Sound1());
+    }
+
+    public void sound2()
+	{
+		String[] a = {"MAIN"};
+        processing.core.PApplet.runSketch( a, new Sound2());
+    }
+
     public void airSeaBattle()
 	{
 		String[] a = {"MAIN"};
         processing.core.PApplet.runSketch( a, new AirSeaBattle());
+    }
+
+    public void soundMandala()
+    {
+        String[] a = {"MAIN"};
+        processing.core.PApplet.runSketch( a, new SoundMandala());
     }
     
     public void dogsCats()
@@ -69,6 +96,10 @@ public class Main
     public static void main(String[] arg)
     {
         Main main = new Main();
+<<<<<<< HEAD
 		main.helloArrays();      
+=======
+		main.sound2();        
+>>>>>>> 2d52dd221d936f97e0702fcfa6eeb2cfcf6b7520
     }
 }
