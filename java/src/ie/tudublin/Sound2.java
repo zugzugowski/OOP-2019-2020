@@ -26,8 +26,6 @@ public class Sound2 extends PApplet
 	}
 
 	float lerpedw = 0;
-
-	
 	
 
 	public int countZeroCrossings()
