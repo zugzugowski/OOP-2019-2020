@@ -176,8 +176,8 @@ public class Loops extends PApplet
 
 		//loops3();
 		//loop4();
-		//loops5();
-		loops6();
+		loops5();
+		//loops6();
 	}
 
 	public void shape4()

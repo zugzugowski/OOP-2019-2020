@@ -10,6 +10,8 @@ public class Sound2 extends PApplet
 
 	int frameSize = 1024;
 
+	float frameToSecond = 44100 / (float)frameSize;
+
 	public void settings()
 	{
 		size(1024, 500);
@@ -24,6 +26,29 @@ public class Sound2 extends PApplet
 	}
 
 	float lerpedw = 0;
+
+	
+	
+
+	public int countZeroCrossings()
+	{
+		int sum = 0;
+
+		for(int i = 1; i < as.bufferSize(); i++)
+		{
+			//float x = as.left.get(i);
+			if(as.left.get(i - 1) > 0 && as.left.get(i) <= 0)
+			{
+				sum++;
+			}
+		}
+		
+		//float x = as.bufferSize();
+
+
+		return sum;
+
+	}
 
 	public void keyPressed()
 	{
@@ -59,5 +84,11 @@ public class Sound2 extends PApplet
 		);
 		ellipse(400 , cy,w, w);
 		ellipse(600 , cy,lerpedw, lerpedw);		
+
+		int count = countZeroCrossings();
+		float freq = count * frameToSecond;
+		textSize(22);
+		text(freq, 100, 50);
+		
 }
 }
