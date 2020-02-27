@@ -53,6 +53,29 @@ public class Sound2 extends PApplet
 		as.stop();
 		as.trigger();
 	}
+
+	float offs = 0;
+
+	public void circleVisual()
+	{
+		strokeWeight(2);
+		float cx = width / 2;
+		float cy = height / 2;
+
+		for(int i = 0 ; i < as.bufferSize() ; i ++)
+		{
+			float theta = map(i, 0, as.bufferSize(), 0, TWO_PI);
+			float x = cx + sin(theta) * cx * abs(as.left.get(i));
+			float y = cy + cos(theta) * cx * abs(as.left.get(i));
+			stroke(
+				map(i + offs, 0, as.bufferSize(), 0, 255) % 255
+				,255
+				,255
+			);
+			line(cx, cy, x, y);
+		}
+		offs += 10f;
+	}
 	
 	public void draw()
 	{	
@@ -80,13 +103,15 @@ public class Sound2 extends PApplet
 			, 255
 			, 255
 		);
-		ellipse(400 , cy,w, w);
-		ellipse(600 , cy,lerpedw, lerpedw);		
+		// ellipse(400 , cy,w, w);
+		// ellipse(600 , cy,lerpedw, lerpedw);		
 
 		int count = countZeroCrossings();
 		float freq = count * frameToSecond;
 		textSize(22);
 		text(freq, 100, 50);
+
+		circleVisual();
 		
 }
 }
